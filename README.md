@@ -5,20 +5,27 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.4.4
 
-* System dependencies
+* Database PostgreSQL
 
-* Configuration
+# Configuration
+	
+* Install GEM
 
-* Database creation
+	bundle install
+	
+* Migration Database
 
-* Database initialization
+    Migration database yang sudah ada
 
-* How to run the test suite
+	rails/rake db:migrate
+	rails/rake db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+* Test with Browser & Postman
+    url admin   : http://localhost:3000/admin
+    email       : admin@email.com
+    pass        : password
 
-* Deployment instructions
+    url document API : https://betestinventory.docs.apiary.io/
 
-* ...

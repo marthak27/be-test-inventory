@@ -1,0 +1,9 @@
+development:
+  cloud_name: "marthak27"
+  api_key: "172597155526773"
+  api_secret: "uOJTT2JK0aRCngYR0lf7b_wYuTQ"
+
+production:
+  cloud_name: "marthak27"
+  api_key: "172597155526773"
+  api_secret: "uOJTT2JK0aRCngYR0lf7b_wYuTQ"
